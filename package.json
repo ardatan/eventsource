@@ -1,6 +1,6 @@
 {
-  "name": "eventsource",
-  "version": "1.1.0",
+  "name": "@ardatan/eventsource",
+  "version": "1.1.2",
   "description": "W3C compliant EventSource client for Node.js and browser (polyfill)",
   "keywords": [
     "eventsource",
@@ -22,6 +22,7 @@
     "lib": "./lib"
   },
   "main": "./lib/eventsource",
+  "browser": "./lib/eventsource-browser",
   "license": "MIT",
   "licenses": [
     {
